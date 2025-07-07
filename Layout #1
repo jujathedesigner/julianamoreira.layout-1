@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- Document Type Declaration -->
+<html lang="pt-br"> <!-- HTML Starts & Page Language -->
+<head> <!-- Metadata -->
+    <meta charset="UTF-8"> <!-- Characters Kit -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive Design -->
+    <title>Layout #1 - Juliana Moreira</title> <!-- Page title -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Previous Notice of Connection -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- // & Deals w/ CORS -->
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Gravitas+One&family=Rubik+80s+Fade&family=Rubik+Beastly&family=Rubik+Microbe&family=Rubik+Pixels&family=Yesteryear&display=swap" rel="stylesheet"> <!-- Imports Font -->
+    <style> /* CSS Starts & Defines Visual Styles*/
+    body {
+            background: #80576c; /* Background's Fallback Color */
+            background: linear-gradient(90deg,rgba(128, 87, 108, 1) 0%, rgba(117, 51, 4, 1) 50%, rgba(95, 117, 4, 1) 100%); /* Background's Gradient */
+            display: flex; /* Makes 'body' Flexible */
+            flex-direction: column; /* Organizes Itens on a Vertical Column*/
+            align-items: center; /* Centers Itens Horizontaly */
+            min-height: 100vh; /* Centers 'body' Verticaly */
+            margin: 0; /* Removes 'body's' Margin */
+        }
+        .main-wrap { /* Selects Class */
+            width: 80%; /* Defines Wraps Width */
+            margin-top: 10vw; /* Ajusts Top Margin Based on Side Margins */
+            min-height: 200px; /* Wraps Minimal Height */
+            
+            background: #f7a1cf; /* Wrap's Fallback Collor */
+            background: linear-gradient(90deg, rgba(247, 161, 207, 1) 0%, rgba(255, 106, 0, 1) 50%, rgba(215, 247, 87, 1) 100%); /* Wrap's Gradient */
+            border: none; /* Removes Wrap's Border */
+            
+            display: flex; /* Makes '.main-wrap' Flexible */
+            justify-content: center; /* Centers Content Horizontaly*/
+            align-items: center; /* Centers Content Verticaly */
+        }
+        .main-text { /* Selects Class */
+            color: rgba(255, 255, 255, 0.7); /* Defines Text's Color */
+            font-family: 'Rubik Beastly', regular; /* Defines Text's Font */
+            font-size: 1.7em; /* Defines Text's Size */
+            margin: 0; /* Removes Paragraph Margin */
+        }
+    </style> <!-- CSS Ends -->
+</head> <!-- Head Ends -->
+<body> <!-- Body Starts & Shows Visible Content --> <div class="main-wrap"> <p class="main-text">juja, the designer</p> </div>
+    </body> <!-- Body Ends -->
+</html> <!-- HTML Ends -->
